@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Landing | YourBrand</title>
+  <meta name="description" content="Discover a premium product designed to simplify your life." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="logo">YourBrand</div>
+    <nav>
+      <button onclick="scrollToSection('about')">About</button>
+      <button onclick="scrollToSection('details')">Details</button>
+      <button class="btn" onclick="buyNow()">Buy Now</button>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="about">
+    <div class="hero-text" data-animate>
+      <h1>Revolutionize Your Daily Life With This Smart Product</h1>
+      <p>Experience innovation at its best — beautifully designed, built for real performance, and made to simplify your everyday routine. Take control, stay productive, and enjoy smarter living.</p>
+      <button class="btn" onclick="buyNow()">Buy Now</button>
+    </div>
+    <div class="hero-img" data-animate>
+      <img src="https://via.placeholder.com/600x400.png?text=Your+Product+Image" alt="Product image">
+    </div>
+  </section>
+
+  <!-- ===== Article / Description ===== -->
+  <section class="article" id="details">
+    <h2 data-animate>What Makes It Special</h2>
+    <p data-animate>
+      This product is more than just another gadget — it’s a lifestyle upgrade. Designed with precision and crafted using high-quality materials, it offers unmatched reliability and style.
+    </p>
+    <p data-animate>
+      From effortless usability to sleek aesthetics, every detail has been refined to create the perfect balance between design and functionality.
+    </p>
+    <p data-animate>
+      Join thousands of satisfied users who’ve already discovered how this product transforms their day-to-day experience. The next level of simplicity is here — and it starts with one click.
+    </p>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section class="cta-section" data-animate>
+    <h3>Ready to Experience the Difference?</h3>
+    <p>Click below to get your hands on the most talked-about product of the year.</p>
+    <button class="btn" onclick="buyNow()">Get Yours Now</button>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    © <span id="year"></span> YourBrand · All Rights Reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
